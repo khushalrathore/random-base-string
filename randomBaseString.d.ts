@@ -1,0 +1,1 @@
+export declare function randomBaseString(base?: number, length?: number, printDebugInfo?: boolean): string;

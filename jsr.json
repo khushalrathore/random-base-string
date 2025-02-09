@@ -1,0 +1,16 @@
+{
+    "name": "@ksr/random-base-string",
+    "version": "1.0.1",
+    "description": "A utility function that generates a random string in any numeric base (e.g., hex, binary) with customizable length.",
+    "main": "randomBaseString.js",
+    "dependencies": {},
+    "license": "MIT",
+    "tags": [
+        "random",
+        "string",
+        "base",
+        "hex",
+        "utility"
+    ],
+    "exports": "./randomBaseString.ts"
+}
