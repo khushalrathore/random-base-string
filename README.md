@@ -13,14 +13,14 @@ npx jsr install @ksr/random-base-string
 ## Usage Example
 
 ```typescript
-import { randomBaseString } from '@ksr/random-base-string';
+import { randomBaseString as _rBs } from '@ksr/random-base-string';
 
 // Generate a random hex string with length 8
-const hexString: string = randomBaseString(16, 8);
+const hexString: string = _rBs(16, 8);
 console.log(hexString);
 
 // Generate a random binary string with length 12
-const binaryString: string = randomBaseString(2, 12);
+const binaryString: string = _rBs(2, 12);
 console.log(binaryString);
 
 ```
